@@ -14,7 +14,6 @@
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
-    top: 10%;
 }
 #titulo-banner{
     color: white;
@@ -57,9 +56,8 @@
 }
 
 #caixas{
-    position: absolute;
     width: 100%;
-    top: 60%;
+    margin-top: -30vh;
     height: 50%;
     display: flex;
     flex-direction: row;
