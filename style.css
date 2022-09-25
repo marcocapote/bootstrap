@@ -1,4 +1,7 @@
-
+body{
+    overflow-x: hidden;
+    background-color: rgb(196, 196, 196);
+}
 #menu{
     height: 10%;
     background-color: #1F2326;
@@ -25,24 +28,22 @@
     font-size: larger;
 }
 #caixa1{
-   
     background-color: #733863;
     height: 100%;
     border-radius: 20px;
-    
+    box-shadow: 2px 2px 10px;
 }
 #caixa2{
-    
     background-color: #1F2326;
     height: 100%;
     border-radius: 20px;
-
+    box-shadow: 2px 2px 10px;
 }
 #caixa3{
-   
     background-color: #6099A6;
     height: 100%;
     border-radius: 20px;
+    box-shadow: 2px 2px 10px;
 }
 #titulo-card{
     text-align: center;
@@ -62,23 +63,35 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    animation: animationum;
-    animation-duration: 1s;
 }
 #icon{
-    width: 100px;
-   
+    width: 100px;  
 }
 #titulo1{
     background-color: #733863;
     color: white;
     margin-top: 10%;
     font-size: 25px;
+    box-shadow: 2px 2px 10px;
+}
+#titulo2{
+    background-color: #1F2326;
+    color: white;
+    margin-top: 10%;
+    font-size: 25px;
+    box-shadow: 2px 2px 10px;
 }
 #content1{
     margin-top: 10%;
     background-color: #733863;
     border-radius: 15px;
+    box-shadow: 2px 2px 10px;
+}
+#content2{
+    margin-top: 10%;
+    background-color: #1F2326;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px;
 }
 #text{
     font-size: 25px;
@@ -94,6 +107,9 @@
 }
 #img2{
     width: 50%;
+}
+#img3{
+    width: 100%;
 }
 @keyframes animationum{
     from{
