@@ -81,6 +81,13 @@ body{
     font-size: 25px;
     box-shadow: 2px 2px 10px;
 }
+#titulo3{
+    background-color: #6099A6;
+    color: white;
+    margin-top: 10%;
+    font-size: 25px;
+    box-shadow: 2px 2px 10px;
+}
 #content1{
     margin-top: 10%;
     background-color: #733863;
@@ -93,6 +100,12 @@ body{
     border-radius: 15px;
     box-shadow: 2px 2px 10px;
 }
+#content3{
+    margin-top: 10%;
+    background-color: #6099A6;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px;
+}
 #text{
     font-size: 25px;
     color: white;
@@ -100,7 +113,9 @@ body{
 #subtitulo{
     color: white;
     font-size: 50px;
-
+}
+#legenda{
+    color: white;
 }
 #img{
     width: 100%;
@@ -110,6 +125,9 @@ body{
 }
 #img3{
     width: 100%;
+}
+#imgc{
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 100%);
 }
 @keyframes animationum{
     from{
