@@ -32,18 +32,33 @@ body{
     height: 100%;
     border-radius: 20px;
     box-shadow: 2px 2px 10px;
+    transition: transform 0.3s ease-out 100ms 
 }
 #caixa2{
     background-color: #1F2326;
     height: 100%;
     border-radius: 20px;
     box-shadow: 2px 2px 10px;
+    transition: transform 0.3s ease-out 100ms
 }
 #caixa3{
     background-color: #6099A6;
     height: 100%;
     border-radius: 20px;
     box-shadow: 2px 2px 10px;
+    transition: transform 0.3s ease-out 100ms
+}
+#caixa1 a{
+    
+}
+#caixa1:hover{
+    transform: scale(1.05);
+}
+#caixa2:hover{
+    transform: scale(1.05);
+}
+#caixa3:hover{
+    transform: scale(1.05);
 }
 #titulo-card{
     text-align: center;
@@ -63,6 +78,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    animation: animationum 0.5s ;
 }
 #icon{
     width: 100px;  
@@ -121,21 +137,40 @@ body{
     width: 100%;
 }
 #img2{
-    width: 50%;
+    width: 70%;
 }
 #img3{
     width: 100%;
 }
+#img4{
+    border-radius: 15px;
+   
+}
 #imgc{
     -webkit-mask-image: linear-gradient(to top, transparent 0%, black 100%);
+    border-radius: 15px;
+   
+}
+#carouselExampleControls{
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.carousel-inner{
+    border-radius: 15px;
 }
 @keyframes animationum{
     from{
-        top: 100%;
+        margin-top: 20%;
         opacity: 0;
     }
     to{
-        top: 60%;
         opacity: 1;
+    }
+}
+@keyframes animacaixa{
+    100%{
+        transform: scale(1.1);
     }
 }
